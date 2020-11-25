@@ -1,5 +1,5 @@
 import React from 'react'
-// import Rating from './Rating'
+import Rating from './Rating'
 
 const DriverCard = props => {
     return (
@@ -9,7 +9,7 @@ const DriverCard = props => {
             </div>
             <div>
                 <h4>{props.name}</h4>
-                <h5>{props.rating}</h5>
+                <Rating>{props.rating}</Rating>
                 <p>{props.car.model} - {props.car.licensePlate}</p>
             </div>
         </div>
